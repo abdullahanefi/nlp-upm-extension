@@ -1,0 +1,2 @@
+#!/bin/bash
+~/mosesdecoder/scripts/training/train-model.perl -scripts-root-dir ~/mosesdecoder/scripts/ -root-dir /mnt/corpus/ -corpus /mnt/corpus/training/europarl-v6.es-en.lowercased -s es -e en -alignment grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:5:/mnt/corpus/training-monolingual/europarl-v6.lm.en:0
