@@ -1,2 +1,2 @@
 #!/bin/bash
-nohup nice /opt/moses/scripts/training/train-model.perl -root-dir train -corpus /mnt/corpus/europarl-v7.es-en.lowercased -f es -e en -alignment grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:5:/mnt/corpus/training-monolingual/europarl-v6.lm.en:0 -external-bin-dir /home/ubuntu/mosesdecoder/tools/ >& training.out &
+nohup nice /opt/moses/scripts/training/train-model.perl -root-dir /mnt/corpus/train -corpus /mnt/corpus/europarl-v7.es-en.lowercased -f es -e en -alignment grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:5:/mnt/corpus/training-monolingual/europarl-v6.lm.en:0 -external-bin-dir /home/ubuntu/mosesdecoder/tools/ >& training.out &
