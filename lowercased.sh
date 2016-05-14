@@ -1,10 +1,10 @@
 #!/bin/bash
- ~/scripts/lowercase.perl <  europarl-v7.es-en.clean.en > europarl-v7.es-en.lowercased.en
- ~/scripts/lowercase.perl <  europarl-v7.es-en.clean.es >  europarl-v7.es-en.lowercased.es
- ~/scripts/lowercase.perl <  undoc.2000.en-es.clean.en > undoc.2000.en-es.lowercased.en
- ~/scripts/lowercase.perl <  undoc.2000.en-es.clean.es > undoc.2000.en-es.t.lowercased.es
- ~/scripts/lowercase.perl <  training/europarl-v6.es-en.clean.en > training/europarl-v6.es-en.lowercased.en
- ~/scripts/lowercase.perl <  training/europarl-v6.es-en.clean.es > training/europarl-v6.es-en.lowercased.es
- ~/scripts/lowercase.perl <  training/news-commentary-v6.es-en.clean.en > training/news-commentary-v6.es-en.lowercased.en
- ~/scripts/lowercase.perl <  training/news-commentary-v6.es-en.clean.es > training/news-commentary-v6.es-en.lowercased.es
+ ~/scripts/lowercase.perl <  /mnt/corpus/europarl-v7.es-en.clean.en > /mnt/corpus/europarl-v7.es-en.lowercased.en
+ ~/scripts/lowercase.perl <  /mnt/corpus/europarl-v7.es-en.clean.es >  /mnt/corpus/europarl-v7.es-en.lowercased.es
+ ~/scripts/lowercase.perl <  /mnt/corpus/undoc.2000.en-es.clean.en > /mnt/corpus/undoc.2000.en-es.lowercased.en
+ ~/scripts/lowercase.perl <  /mnt/corpus/undoc.2000.en-es.clean.es > /mnt/corpus/undoc.2000.en-es.t.lowercased.es
+ ~/scripts/lowercase.perl <  /mnt/corpus/training/europarl-v6.es-en.clean.en > /mnt/corpus/training/europarl-v6.es-en.lowercased.en
+ ~/scripts/lowercase.perl <  /mnt/corpus/training/europarl-v6.es-en.clean.es > /mnt/corpus/training/europarl-v6.es-en.lowercased.es
+ ~/scripts/lowercase.perl <  /mnt/corpus/training/news-commentary-v6.es-en.clean.en > /mnt/corpus/training/news-commentary-v6.es-en.lowercased.en
+ ~/scripts/lowercase.perl <  /mnt/corpus/training/news-commentary-v6.es-en.clean.es > /mnt/corpus/training/news-commentary-v6.es-en.lowercased.es
  
