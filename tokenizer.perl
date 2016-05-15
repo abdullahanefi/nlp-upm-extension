@@ -50,7 +50,7 @@ LINE: while(<STDIN>) {
 		$_ =~ s/([^0-9])[.,;:¿?¡!-\/\\]+([^0-9])/$1$2/gm;
     	$_ =~ s/^[.,;:¿?¡!-\/\\]+([^0-9])/$1/gm;
 	}
-	next LINE if /^\s*$/ ; 
+	# next LINE if /^\s*$/ ; 
 	print &tokenize($_);
 }
 
