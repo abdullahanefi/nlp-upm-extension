@@ -64,7 +64,7 @@ sub tokenize {
 	$text = " $text ";
 	
 	# seperate out all "other" special characters
-	$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-])/ $1 /g;
+	$text =~ s/([^\p{IsAlnum}\s\.\°\'\`\,\-])/ $1 /g;
 	
 	#multi-dots stay together
 	$text =~ s/\.([\.]+)/ DOTMULTI$1/g;
